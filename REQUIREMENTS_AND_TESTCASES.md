@@ -3,6 +3,7 @@
 **Project:** CREATORA S.R — Digital Creative Agency Website
 **Stack:** React 19 + Next.js 16 (App Router) + Tailwind CSS 4 + TypeScript
 **Test Date:** 25 Oct 2026 · **Status: 33/33 TEST CASES PASS ✓**
+**🌐 LIVE:** https://creatorasr.vercel.app · **Live test report:** [`LIVE_TEST_REPORT.md`](LIVE_TEST_REPORT.md) (15/16 pass)
 
 > 📌 **Canonical documentation** (isi ko follow karo):
 >

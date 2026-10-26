@@ -46,3 +46,7 @@ next-env.d.ts
 /root-files
 
 /.playwright-cli
+.vercel
+.env*
+
+/evidence-live

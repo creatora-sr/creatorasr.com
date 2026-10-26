@@ -2,7 +2,13 @@
 
 > **Your Ideas Our Creation : "Powerful Digital Solution"**
 
+[![Live Website](https://img.shields.io/badge/🌐_LIVE-creatorasr.vercel.app-000000?style=for-the-badge)](https://creatorasr.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+
 A modern, fully responsive and production-ready website for **CREATORA S.R** — a digital creative agency offering AI Videos, AI Agents, Web Design, Video Editing, Graphics, Posters, Banners, Thumbnails & Content Creation.
+
+**🚀 Live:** https://creatorasr.vercel.app · **🧪 Test report:** [LIVE_TEST_REPORT.md](LIVE_TEST_REPORT.md) (15/16 pass)
 
 ![Banner](public/hero.png)
 
@@ -69,7 +75,7 @@ The included **Admin Dashboard** manages inquiries, clients, tickets & content. 
 
 ## 🌐 Domain
 
-Domain name pending. Deployment target: **Vercel (free tier)** + custom domain connect later — no code changes required.
+**Live now on Vercel (free tier):** https://creatorasr.vercel.app · Custom domain **creatorasr.com** will be connected later — no code changes required.
 
 ## 📞 Contact
 
