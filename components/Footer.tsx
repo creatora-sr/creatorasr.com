@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { MessageCircle, Mail, MapPin, Phone } from "lucide-react";
+import { WhatsAppIcon, InstagramIcon, FacebookIcon, LinkedInIcon } from "@/components/SocialIcons";
 
 export default function Footer({ onChat }: { onChat: () => void }) {
   const [year] = useState(() => new Date().getFullYear());
@@ -52,10 +53,18 @@ export default function Footer({ onChat }: { onChat: () => void }) {
             <li className="flex items-center gap-2"><MapPin size={14} /> Hisar, Haryana, India</li>
           </ul>
           <div className="flex gap-3 mt-4">
-            <a href="https://wa.me/917015804907" target="_blank" className="w-9 h-9 rounded-full bg-green-600 flex items-center justify-center">W</a>
-            <a href="https://instagram.com" target="_blank" className="w-9 h-9 rounded-full bg-pink-600 flex items-center justify-center">I</a>
-            <a href="https://facebook.com" target="_blank" className="w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center">F</a>
-            <a href="https://linkedin.com" target="_blank" className="w-9 h-9 rounded-full bg-blue-800 flex items-center justify-center">L</a>
+            <a href="https://wa.me/917015804907" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="w-9 h-9 rounded-full bg-green-600 hover:bg-green-500 text-white flex items-center justify-center transition">
+              <WhatsAppIcon size={18} />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full bg-pink-600 hover:bg-pink-500 text-white flex items-center justify-center transition">
+              <InstagramIcon size={18} />
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="w-9 h-9 rounded-full bg-blue-600 hover:bg-blue-500 text-white flex items-center justify-center transition">
+              <FacebookIcon size={18} />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="w-9 h-9 rounded-full bg-blue-800 hover:bg-blue-700 text-white flex items-center justify-center transition">
+              <LinkedInIcon size={18} />
+            </a>
           </div>
         </div>
       </div>
